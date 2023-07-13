@@ -1,0 +1,120 @@
+/* *{
+    outline: 1px solid;
+} */
+
+.sidebar{
+    background-color: #5041BC;
+    height: 100%;
+    width: 523px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    z-index: 1;
+    transition: width .75s ease;
+    box-sizing: border-box;
+    padding: 50px 35px 50px 0px;
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sidebar .content{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.heading{
+    height: 70px;
+}
+
+.heading svg{
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+
+hr{
+    width: 191px;
+    margin-bottom: 30px;
+}
+
+.options{
+    height: 80%;
+    width: 100%;
+    margin-left: 70px;
+    box-sizing: border-box;
+}
+
+.option{
+    color: white;
+    list-style: none;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.option_container{
+    width: 180px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.option_container.active{
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: -28px 22px 45px 0px rgba(27, 29, 66, 0.14);
+}
+
+.option_container.active li{
+    color: #5041BC;
+    font-weight: 800;
+}
+
+.option_container.active svg path{
+    fill: #5041BC;
+}
+
+.options li svg{
+    margin-right: 25px;
+    width: 20px;
+}
+
+.content .logo-container{
+    border-radius: 20px;
+    border: 0.56px solid #E2DEF9;
+    background: #FFF;
+    box-shadow: -28px 22px 45px 0px rgba(27, 29, 66, 0.14);
+    width: 180px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content .logo-container span{
+    color: #263156;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.content .logo-container button{
+    width: 140px;
+    height: 39.2px;
+    flex-shrink: 0;
+    border-radius: 23.24px;
+    background: #FF8057;
+    border: none;
+}

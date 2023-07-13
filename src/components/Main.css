@@ -1,0 +1,182 @@
+.main{
+    border-radius: 40px;
+    background-color: white;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 247px;
+    z-index: 4;
+    height: 100%;
+    width: 1200px;
+    padding: 30px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.main .heading{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    margin-bottom: 25px;
+}
+
+.main .searchbar{
+    border-radius: 40px;
+    width: 415px;
+    height: 30px;
+    background-color: #F5F3FF;
+    border: none;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.searchbar::placeholder{
+    color:#5041BC;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.main .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+.profile svg{
+    margin-right: 20px;
+}
+
+.profile img{
+    margin-right: 5px;
+}
+
+.avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table{
+    padding: 0 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.table h3{
+    color: #04103B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.profit{
+    font-weight: 700;
+    color: black;
+}
+
+td{
+    color: #797D8C;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.gold{
+    color: #F7941D;
+}
+
+.silver{
+    color: #43BE83;
+}
+
+td svg{
+    color: black;
+}
+
+.cards{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.card{
+    width: 260px;
+    height: 160px;
+    border: 1px solid #D3CBFB;
+    border-radius: 20px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.card .content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card .content .product .title{
+    font-size: 14px;
+    color: #797D8C;
+    font-weight: 600;
+}
+
+.card .content .product h2{
+    font-size: 32px;
+    color: #04103B;
+    margin: 0;
+}
+
+
+
+.stats{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stats span svg{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #B5FFCE;
+    margin-right: 2px;
+}
+
+.stats span{
+    color: #43BE83;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    width: 70px;
+    justify-content: space-evenly;
+}
+
+.stats a{
+    color: #5041BC;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+.down svg{
+    background-color: #FFD9D7 !important;
+    color: #EA8F95;
+}
+
+.down{
+    color: #EA8F95 !important;
+}
